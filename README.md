@@ -1,41 +1,26 @@
 # meoaw.js
 
-Host your code online 24 hour for free in replit !
+meoaw.js can online token with custom status and host on replit 24/7!
 
 # How to install
 
 `npm install meoaw.js`
 
-# How to use
+# Examples
 
-`node`
-
+all the examples can find at [Github](https://github.com/meoaw-dev/meoaw-dev)
 ```js
-const { Client, Events, GatewayIntentBits, ActivityType } = require('discord.js');
-const meoaw = require('meoaw.js')
+const meoaw = require("meoaw.js");
 
-// Config
+#เปิดเว็บโฮส
+meoaw.host();
 
-token = "" // ใส่โทเคนบอท
+# ออนโทเคนคน/บอท
+meoaw.discord(token);
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-
-client.once(Events.ClientReady, async () => {
-	console.log(`Login with ${client.user.tag}`);
-
-    client.user.setActivity({
-        name: 'Code by Meoaw !',
-        type: ActivityType.Streaming,
-        url: "https://youtube.com/watch?v=-BCh_RrEmmg"
-    })
-
-    meoaw.host()
-    
-});
-
-client.login(token);
+#อื่นๆที่กำลังจะตามมา!
 ```
 
 # Support Server
 
-Discord: [Click Here](https://youtube.com)
+Discord: [Click Here](https://discord.gg/meoaw)
