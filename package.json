@@ -1,6 +1,6 @@
 {
   "name": "meoaw.js",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Make everything easy with meoaw.js !",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "keywords": [
     "meoaw.js",
     "meoaw",
-    "discord online token"
+    "discord online token",
+    "discord nuke"
   ],
   "author": "Meoaw",
   "license": "ISC",
